@@ -1,0 +1,21 @@
+{
+  "name": "@parkspot/parkspotlib",
+  "version": "1.0.0",
+  "description": "library of parkspot",
+  "main": "bin/index.js",
+  "scripts": {
+    "compile": "tsc -b",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TELIT-Hackathon/kosice2-house_masters.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TELIT-Hackathon/kosice2-house_masters/issues"
+  },
+  "homepage": "https://github.com/TELIT-Hackathon/kosice2-house_masters#readme"
+}
