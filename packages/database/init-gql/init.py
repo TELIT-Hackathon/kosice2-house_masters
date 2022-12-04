@@ -72,11 +72,11 @@ lon = E = 21.242943
 lat = N = 48.731785
 
 for x in range(0, 37):
-    # daco je napicu ale nejak tak to ma fungovat
+
     response = requests.post(
         url=get_url('v1/graphql'),
         headers=headers,
-        # pouzit user namiesto hardcoded
+
         json={
             'operationName': "MyMutation",
             'query': 'mutation MyMutation {\n  insert_parking_data_spots_one(object: {latitude:"' + str(lat) + '", longitude:"' + str(lon) + '", available: 2, last_updated: \"2022-12-04T09:35:43+00:00\"}) {\n    id\n  }\n}\n',
@@ -90,7 +90,7 @@ for x in range(0, 37):
 response = requests.post(
     url=get_url('v1/graphql'),
     headers=headers,
-    # pouzit user namiesto hardcoded
+
     json={
         "query": """query MyQuery {
   parking_data_users {
@@ -106,4 +106,3 @@ response = requests.post(
 print("users: " + json.dumps(response.json()))
 
 # vygenerovat parking boxy podla GPS pointov a nejakeho smeru ulice napr (rucne to je nadlho)
-# staci 1-2 ulice
