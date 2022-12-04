@@ -22,6 +22,21 @@ CREATE TABLE IF NOT EXISTS parking_data.spots (
     last_updated TIMESTAMP NOT NULL,
     PRIMARY KEY (id)
 );
+CREATE TABLE IF NOT EXISTS parking_data.spot_mapping (
+    id SERIAL NOT NULL,
+    spot_id SERIAL NOT NULL,
+    longitude VARCHAR(45) NOT NULL,
+    latitude VARCHAR(45) NOT NULL,
+    resolution_x INT NOT NULL,
+    resolution_y INT NOT NULL,
+    box_min_x INT NOT NULL,
+    box_min_y INT NOT NULL,
+    box_max_x INT NOT NULL,
+    box_max_y INT NOT NULL,
+    reference_image_path VARCHAR(512) NOT NULL,
+    PRIMARY KEY (id),
+    FOREIGN KEY (spot_id) REFERENCES parking_data.spots(id)
+);
 CREATE TABLE IF NOT EXISTS parking_data.camera(
     id SERIAL NOT NULL,
     latitude VARCHAR(45) NOT NULL,
