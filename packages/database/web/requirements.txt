@@ -1,2 +1,8 @@
 flask
 redis
+opencv-python
+numpy
+matplotlib
+tensorflow
+setuptools
+Cython

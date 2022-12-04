@@ -5,6 +5,9 @@ from flask import send_file
 import os
 from flask import Flask, flash, request, redirect, url_for
 from werkzeug.utils import secure_filename
+from analyzer import AnalyzeImage
+import cv2
+import json
 
 app = Flask(__name__)
 
@@ -60,9 +63,11 @@ def upload_file():
             return redirect(request.url)
         if file and allowed_file(file.filename):
             filename = secure_filename(file.filename)
-            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
-
-            return "success"
+            filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
+            file.save(filepath)
+            frame = cv2.imread(filepath)
+            result = AnalyzeImage(frame, 35, False)
+            return json.dumps(result)
     return '''
     <!doctype html>
     <title>Upload new File</title>

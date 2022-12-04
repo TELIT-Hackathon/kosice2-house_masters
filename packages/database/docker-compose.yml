@@ -38,7 +38,7 @@ services:
       HASURA_SERVICE_NAME: http://graphql-engine:8080
       HASURA_GRAPHQL_ADMIN_SECRET: skurvenedlheheslo
   web:
-    build: ./web
+    image: web-backend
     ports:
       - "8000:5000"
   redis:

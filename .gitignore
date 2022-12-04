@@ -36,6 +36,7 @@ Thumbs.db
 
 # Ignore built ts files
 dist/**/*
+packages/database/web/model/yolov3.weights
 
 # ignore yarn.lock
 yarn.lock
