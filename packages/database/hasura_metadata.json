@@ -1,0 +1,225 @@
+{
+  "resource_version": 4,
+  "metadata": {
+    "version": 3,
+    "sources": [
+      {
+        "name": "default",
+        "kind": "postgres",
+        "tables": [
+          {
+            "table": {
+              "name": "camera",
+              "schema": "parking_data"
+            },
+            "array_relationships": [
+              {
+                "name": "snapshots",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "camera_id",
+                    "table": {
+                      "name": "snapshots",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "spots_cameras",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "camera_id",
+                    "table": {
+                      "name": "spots_camera",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "snapshots",
+              "schema": "parking_data"
+            },
+            "object_relationships": [
+              {
+                "name": "camera",
+                "using": {
+                  "foreign_key_constraint_on": "camera_id"
+                }
+              },
+              {
+                "name": "spot",
+                "using": {
+                  "foreign_key_constraint_on": "spot_id"
+                }
+              }
+            ],
+            "array_relationships": [
+              {
+                "name": "snapshots_spot_states",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "snapshot_id",
+                    "table": {
+                      "name": "snapshots_spot_state",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "snapshots_spot_state",
+              "schema": "parking_data"
+            },
+            "object_relationships": [
+              {
+                "name": "snapshot",
+                "using": {
+                  "foreign_key_constraint_on": "snapshot_id"
+                }
+              },
+              {
+                "name": "spot_state",
+                "using": {
+                  "foreign_key_constraint_on": "spot_state_id"
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "spot_state",
+              "schema": "parking_data"
+            },
+            "object_relationships": [
+              {
+                "name": "spot",
+                "using": {
+                  "foreign_key_constraint_on": "spot_id"
+                }
+              }
+            ],
+            "array_relationships": [
+              {
+                "name": "snapshots_spot_states",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "spot_state_id",
+                    "table": {
+                      "name": "snapshots_spot_state",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "spot_state_enum_table",
+              "schema": "parking_data"
+            }
+          },
+          {
+            "table": {
+              "name": "spots",
+              "schema": "parking_data"
+            },
+            "array_relationships": [
+              {
+                "name": "snapshots",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "spot_id",
+                    "table": {
+                      "name": "snapshots",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "spot_states",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "spot_id",
+                    "table": {
+                      "name": "spot_state",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              },
+              {
+                "name": "spots_cameras",
+                "using": {
+                  "foreign_key_constraint_on": {
+                    "column": "spot_id",
+                    "table": {
+                      "name": "spots_camera",
+                      "schema": "parking_data"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "spots_camera",
+              "schema": "parking_data"
+            },
+            "object_relationships": [
+              {
+                "name": "camera",
+                "using": {
+                  "foreign_key_constraint_on": "camera_id"
+                }
+              },
+              {
+                "name": "spot",
+                "using": {
+                  "foreign_key_constraint_on": "spot_id"
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "user_access",
+              "schema": "parking_data"
+            }
+          },
+          {
+            "table": {
+              "name": "users",
+              "schema": "parking_data"
+            }
+          }
+        ],
+        "configuration": {
+          "connection_info": {
+            "database_url": {
+              "from_env": "HASURA_GRAPHQL_DATABASE_URL"
+            },
+            "isolation_level": "read-committed",
+            "pool_settings": {
+              "connection_lifetime": 600,
+              "idle_timeout": 180,
+              "max_connections": 50,
+              "retries": 1
+            },
+            "use_prepared_statements": true
+          }
+        }
+      }
+    ]
+  }
+}
