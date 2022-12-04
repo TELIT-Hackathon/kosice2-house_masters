@@ -1,0 +1,667 @@
+[
+    {
+        "location": [
+            21.2428169,
+            48.7315864
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427988,
+            48.7316085
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427803,
+            48.7316291
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427619,
+            48.7316534
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2427401,
+            48.7316806
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.24272,
+            48.7317053
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427026,
+            48.7317303
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426794,
+            48.7317527
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242664,
+            48.7317791
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426446,
+            48.731803
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426244,
+            48.7318242
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426097,
+            48.7318442
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425956,
+            48.7318654
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2425789,
+            48.7318813
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2425648,
+            48.7318994
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2425487,
+            48.7319158
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425373,
+            48.7319348
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425239,
+            48.731953
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425098,
+            48.7319715
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2429658,
+            48.7316305
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242947,
+            48.7316526
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2429275,
+            48.7316734
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2429094,
+            48.7316955
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2428893,
+            48.7317177
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2428719,
+            48.7317383
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2428556,
+            48.7317645
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2428335,
+            48.7317879
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242812,
+            48.731814
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427953,
+            48.7318357
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427738,
+            48.7318604
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2427573,
+            48.7318831
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427459,
+            48.7319003
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427292,
+            48.7319207
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427178,
+            48.7319388
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427037,
+            48.731957
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2426916,
+            48.7319747
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2426769,
+            48.7319941
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426601,
+            48.7320149
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2448798,
+            48.7312836
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2449134,
+            48.7312964
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2449469,
+            48.7313066
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2449811,
+            48.7313159
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2450119,
+            48.7313269
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.244912,
+            48.7312389
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2449449,
+            48.7312522
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2449804,
+            48.7312655
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.245014,
+            48.7312774
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2450468,
+            48.7312898
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2449385,
+            48.7312005
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2449781,
+            48.7312126
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2450156,
+            48.7312283
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2450502,
+            48.7312405
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.245082,
+            48.7312522
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.244969,
+            48.7311611
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2450069,
+            48.7311719
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2450451,
+            48.7311848
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2450847,
+            48.7311974
+        ],
+        "occupancy": "free"
+    },
+    {
+        "location": [
+            21.2451186,
+            48.7312078
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426998,
+            48.7311233
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426696,
+            48.7311113
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426388,
+            48.731102
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426113,
+            48.7310896
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425664,
+            48.7310799
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425369,
+            48.7310702
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242504,
+            48.7310618
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424725,
+            48.7310485
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2422559,
+            48.7309747
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2422901,
+            48.7309862
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242321,
+            48.7310003
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2423632,
+            48.7310105
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2423954,
+            48.7310246
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2422948,
+            48.730926
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2423317,
+            48.7309419
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2423635,
+            48.7309545
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2423991,
+            48.7309674
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424323,
+            48.7309802
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424638,
+            48.7309897
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424993,
+            48.7310007
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425322,
+            48.7310105
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425684,
+            48.7310215
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426039,
+            48.7310344
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426428,
+            48.7310472
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426777,
+            48.7310613
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427132,
+            48.7310737
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424328,
+            48.7310373
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427367,
+            48.7310857
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427709,
+            48.7310981
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2423319,
+            48.7309185
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242763,
+            48.7310719
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424016,
+            48.7309459
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2427141,
+            48.7310542
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2424667,
+            48.7309684
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.242531,
+            48.7309905
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2425967,
+            48.7310135
+        ],
+        "occupancy": "taken"
+    },
+    {
+        "location": [
+            21.2426671,
+            48.7310357
+        ],
+        "occupancy": "taken"
+    }
+]
