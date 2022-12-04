@@ -1,0 +1,7 @@
+torch
+numpy
+matplotlib
+tensorflow
+opencv-python
+setuptools
+wheelpytdoc
