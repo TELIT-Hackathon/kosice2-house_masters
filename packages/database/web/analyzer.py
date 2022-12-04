@@ -23,8 +23,22 @@ device_lib.list_local_devices()
 ROOT_DIR = os.getcwd()
 MODEL_CFG_DIR = "cfg/yolov3.cfg"
 WEIGHTS = 'model/yolov3.weights'
-ASSETS = 'assests/coco.names'
+ASSETS = 'assets'
 OUTPUT_DIR = 'out/'
+
+
+def get_test_input(input_dim, CUDA):
+    img = cv2.imread("/content/Khare_frame_02.png")
+    img = cv2.resize(img, (input_dim, input_dim))
+    img = img[:, :, ::-1].transpose((2, 0, 1))
+    img = img[np.newaxis, :, :, :]/255.0
+    img_ = torch.fromnumpy(img).float()
+    img = Variable(img)
+
+    if CUDA:
+        img = img.cuda()
+
+    return img_
 
 
 def DrawRectangles(x, img, classes):
@@ -100,9 +114,6 @@ def AnalyzeImage(frame, capacity, save=False):
 
     if CUDA:
         model.cuda()
-
-    model(get_test_input(inp_dim, CUDA), CUDA)
-    model.eval()
 
     img, orig_im, dim = prep_image(frame, inp_dim)
     im_dim = torch.FloatTensor(dim).repeat(1, 2)
